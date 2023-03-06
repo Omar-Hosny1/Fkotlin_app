@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="second_layout" type="layout">@layout/activity_main</item>
+    <dimen name="text_size">50sp</dimen>
+    <dimen name="height">200dp</dimen>
+    <dimen name="width">800dp</dimen>
+    <dimen name="margin">50dp</dimen>
+</resources>

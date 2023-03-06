@@ -1,0 +1,292 @@
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical">-->
+<!--&lt;!&ndash;-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="end"-->
+<!--        android:text="Button" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Button"-->
+<!--        />-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button4"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="0.5"-->
+<!--            android:layout_marginRight="5dp"-->
+<!--            android:text="Button" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button5"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="0.5"-->
+<!--            android:text="Button" />-->
+<!--    </LinearLayout>-->
+
+<!--</LinearLayout>-->
+<!--    android:layout_weight="0.2"-->
+<!--    like flex in flutter => value from 0..1-->
+<!-- &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Button"-->
+
+<!--        />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button2"-->
+
+<!--RELATIVE LAYOUT-->
+<!--<RelativeLayout android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    >-->
+
+<!--    &lt;!&ndash;        android:layout_alignParentTop="true"&ndash;&gt;-->
+<!--    &lt;!&ndash;        android:layout_alignParentEnd="true"&ndash;&gt;-->
+<!--    &lt;!&ndash;        android:layout_alignParentBottom="true"&ndash;&gt;-->
+<!--    &lt;!&ndash;        android:layout_centerVertical="true"&ndash;&gt;-->
+<!--    &lt;!&ndash;        android:layout_alignParentStart="true"&ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/button6"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Button"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        />-->
+<!--    <Button-->
+<!--        android:layout_above="@id/button1"-->
+<!--        android:id="@+id/button1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Button"-->
+<!--        android:layout_alignBottom="@id/button6"-->
+<!--        android:layout_alignEnd="@id/button6"-->
+<!--        android:layout_marginBottom="150dp"-->
+<!--        />-->
+<!--</RelativeLayout>-->
+
+<!-- LINEAR LAYOUT -->
+<!--<LinearLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:orientation="vertical"-->
+<!--    android:weightSum="4"-->
+<!--    >-->
+<!--<ScrollView-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    >-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        >-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button23"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="end|center_vertical"-->
+<!--            android:text="Button" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button24"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Button" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button25"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Button" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button26"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Button" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button19"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="end|center_vertical"-->
+<!--            android:text="Button" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button20"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Button" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button21"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Button" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button22"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Button" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button15"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="end|center_vertical"-->
+<!--            android:text="Button" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button16"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Button" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button17"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Button" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button18"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Button" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button11"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="end|center_vertical"-->
+<!--            android:text="Button" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button12"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Button" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button13"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Button" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button14"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Button" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button7"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="end|center_vertical"-->
+<!--            android:text="Button" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button8"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Button" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button9"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Button" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button10"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Button" />-->
+<!--    </LinearLayout>-->
+<!--</ScrollView>-->
+
+<!--</LinearLayout>-->
+<!-- LINEAR LAYOUT -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width ="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/notes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp"
+        android:onClick="onClickHandler"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="96dp"
+        android:width="@dimen/width"
+        android:height="@dimen/height"
+        android:text="BTN"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+</androidx.constraintlayout.widget.ConstraintLayout>
